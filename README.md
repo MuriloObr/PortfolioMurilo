@@ -1,5 +1,5 @@
 # Sobre
-Meu portfólio
+Meu portfólio... ainda não terminado
 
 ## Tecnologias utlizadas
 
