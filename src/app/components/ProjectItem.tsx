@@ -50,21 +50,21 @@ export function ProjectItem({
           alt="Desktop Version"
           height={600}
           width={585}
-          className="absolute top-5 left-3 max-sm:top-3"
+          className="absolute top-6 left-3 max-sm:top-3"
         />
         <Image
           src="/mobile-screen.png"
           alt="Mobile Screen"
           height={120}
-          width={120}
+          width={118}
           className="absolute bottom-0 -right-5 z-20"
         />
         <Image
           src={mobile}
           alt="Mobile Version"
           height={100}
-          width={105}
-          className="absolute bottom-0 -right-2.5 z-10 rounded-lg max-sm:-right-3 max-sm:w-[6.6rem]"
+          width={109}
+          className="absolute -bottom-0.5 -right-3.5 z-10 rounded-lg max-sm:-right-3 max-sm:w-[6.6rem] max-sm:bottom-1"
         />
       </div>
       <p className="text-justify select-none max-sm:text-defaultBlack">

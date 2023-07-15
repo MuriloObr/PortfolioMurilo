@@ -66,13 +66,13 @@ export default function Home() {
               <ProjectItem
                 tittle="Twitter Clone"
                 screensImgs={{
-                  desktop: "/codeBG.png",
-                  mobile: "/minha foto sem fundo.png",
+                  desktop: "/twitter-desktop.jpg",
+                  mobile: "/twitter-mobile.jpg",
                 }}
                 tags={["nextjs", "reactjs", "tailwind", "typescript"]}
                 links={[
                   "https://github.com/MuriloObr/TwitterClone",
-                  "/twitter",
+                  "https://twitter-clone-six-lemon.vercel.app",
                 ]}
               >
                 Criei um clone da interface do twitter, utilizando next com
