@@ -10,6 +10,7 @@ const technologies = [
   "nextjs",
   "reactjs",
   "tailwind",
+  "python",
 ]
 
 export default function Home() {
@@ -46,7 +47,7 @@ export default function Home() {
         </div>
         <div className="h-fit w-fit absolute inset-0 my-auto mx-auto flex flex-col z-10 select-none max-sm:ml-8">
           <span className="text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-defaultBlack to-primary font-extrabold tracking-tight uppercase">
-            Front-end Developer
+            FullStack Developer
           </span>
           <span className="text-7xl font-bold antialiased tracking-tight">
             Murilo Dressel Obregão
@@ -63,6 +64,22 @@ export default function Home() {
               Projetos
             </h2>
             <div className="py-10 grid grid-cols-2 justify-items-center gap-36 max-sm:grid-cols-1">
+              <ProjectItem
+                tittle="ForUm"
+                screensImgs={{
+                  desktop: "/forum-desktop.png",
+                  mobile: "/mobile",
+                }}
+                tags={["typescript", "reactjs", "tailwind", "python"]}
+                links={[
+                  "https://github.com/MuriloObr/ForUm_Front-End",
+                  "https://for-um-front-end.vercel.app/",
+                ]}
+              >
+                Criei uma to-do list em que o usuário pode salvar presets de
+                atividades, usei o localStorage para armazenar os dados e
+                treinei minha capacidade em criar código reutilizável.
+              </ProjectItem>
               <ProjectItem
                 tittle="Twitter Clone"
                 screensImgs={{
