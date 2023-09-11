@@ -76,9 +76,10 @@ export default function Home() {
                   "https://for-um-front-end.vercel.app/",
                 ]}
               >
-                Criei uma to-do list em que o usuário pode salvar presets de
-                atividades, usei o localStorage para armazenar os dados e
-                treinei minha capacidade em criar código reutilizável.
+                Criei um fórum em que o usuário pode fazer login, postar,
+                comentar e dar e remover likes, utilizando várias libs, além de
+                utilizar python com flask no backend. Neste Projeto aprendi
+                melhor sobre banco de dados, ORM (usei sqlalchemy) e APIs.
               </ProjectItem>
               <ProjectItem
                 tittle="Twitter Clone"
